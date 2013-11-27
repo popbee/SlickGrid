@@ -2019,7 +2019,7 @@ if (typeof Slick === "undefined") {
               Math.abs(lastRenderedScrollLeft - scrollLeft) < viewportW)) {
             render();
           } else {
-            h_render = setTimeout(render, 50);
+            h_render = setTimeout(render, 1);
           }
 
           trigger(self.onViewportChanged, {});
